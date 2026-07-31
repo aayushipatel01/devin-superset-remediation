@@ -86,8 +86,12 @@ Pages directly on the target repo, at
 
 - **Manual:** in the target repo's **Actions** tab, run the "Devin scan
   orchestrator (manual)" workflow.
-- **Scheduled:** fires automatically every day; no action needed.
-
+- **Scheduled:** fires automatically every day; no action needed. Note: this
+  is configured inside my personal Devin account (Automations), not as a
+  file in either repository, so it isn't independently viewable by a
+  reviewer — the manual trigger above is fully inspectable and runnable by
+  anyone, and demonstrates the same underlying orchestrator logic.
+  
 ## What "success" means here
 
 The dashboard's success rate is computed from whether each remediation
