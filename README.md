@@ -15,6 +15,15 @@ issues, the merged fixes, and the live-running workflow and Automation.
 
 [Loom walkthrough](https://www.loom.com/share/80a56a03e2cb4186abc227be73d4fcca)
 
+> **Important — how to actually run this:** the files in this repository are
+> the solution's source code and documentation. The live, functioning
+> automation — the GitHub Action, the Devin API credentials, the actual
+> "Run workflow" button — exists inside the target repository,
+> [aayushipatel01/superset](https://github.com/aayushipatel01/superset),
+> not here. This repository does not need to be cloned or run on its own
+> (aside from the dashboard, via Docker below) — it exists to document and
+> version the orchestrator's code separately from the codebase it operates on.
+
 ## Architecture
 
 Two independent triggers spawn the same underlying orchestrator session:
